@@ -4,13 +4,6 @@ php:
   - 7.2.2
   - 7.3.0
 
-branches:
-    only:
-        - master 
-        #QA/Staging
-        - develop 
-        #DevServer
-
 before_script:
   composer install --no-interaction
 
